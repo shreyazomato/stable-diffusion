@@ -79,7 +79,7 @@ data:
         target: ldm.data.simple.FolderData
         params:
           root_dir: /stable-diffusion-food-images/data/images/
-          caption_file: "/stable-diffusion-food-images/data/captions.json"
+          caption_file: "/stable-diffusion-food-images/data/captions.jsonl"
         image_transforms:
         - target: torchvision.transforms.Resize
           params:
