@@ -76,10 +76,6 @@ data:
     num_workers: 4
     num_val_workers: 0 # Avoid a weird val dataloader issue
     train:
-#      target: ldm.data.simple.hf_dataset
-#      params:
-#        name: lambdalabs/pokemon-blip-captions
-      train:
         target: ldm.data.simple.FolderData
         params:
           root_dir: /stable-diffusion/data/images/
